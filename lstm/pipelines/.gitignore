@@ -1,0 +1,8 @@
+# ignore any csv files
+*.csv
+
+# ignore any folders has prefix of "results"
+results*/
+
+#ignore any py cache folders in all subdirectories
+**/__pycache__/

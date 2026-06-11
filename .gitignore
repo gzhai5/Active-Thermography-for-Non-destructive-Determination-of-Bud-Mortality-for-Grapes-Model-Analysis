@@ -1,0 +1,19 @@
+# ignore data files
+*.csv
+*.npy
+*.avi
+*.pt
+*.mp4
+
+# ignore large data directories
+transformer/refined_data_21/
+roi_data/
+
+# ignore wandb related files in all subdirectories
+**/wandb/
+
+# Ignore Mac system files
+*DS_store
+
+# python cache
+*__pycache__/
